@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: black;
+    color: rgb(228, 163, 217);
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.cabecalho nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho nav li{
+    margin-right: 20px;
+}
+
+.cabecalho nav a{
+    text-decoration: none;
+    color: azure;
+}
+.cabecalho nav a:hover{
+    background-color: rgb(234, 180, 245);
+    border-radius: 5px;
+}
+
+.container__serie{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(229, 216, 241);
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__capa{
+    height: 180px;
+    background-size: cover;
+}
+
+.card__capa figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__img{
+    width: 100%;
+    height: 150px;
+}
+
+
+.card__descricao{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.card__descricao h2{
+    color: rgb(138, 48, 123);
+    text-align: center;
+}
+
+.card__descricao li{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card__descricao p{
+    text-align: center;
+    padding: 0 20;
+}
+.card__botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 55px;
+}
+.card__botao button{
+    display: block;
+    margin: auto;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(207, 166, 245);
+}
+
+.card__botao button a{
+    color: black;
+    text-decoration: none;
+}
